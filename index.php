@@ -4,7 +4,6 @@ include('answers.php');
 //functie om een random answer uit answers te halen/maken
 //answer komt binnen maar die moet random zijn
 //index is genoeg omdat we die in url parameter steken
-//test
 function shakeEightBall($answers)
 {
     $randomAnswer = array_rand($answers);
