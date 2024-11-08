@@ -32,14 +32,3 @@ Maak hiervoor gebruik van de functie getRandomAnswer of shakeEightBall
 Toon onder het antwoord opnieuw de knop, maar pas het label aan zodat er nu "ASK AGAIN" te lezen staat.
 
 De pagina toont nooit 2x achter elkaar hetzelfde antwoord.
-
-# stappenplan
-
-✔️ index.php maken
-✔️ basis html structuur toevoegen + css
-✔️ datapagina (array) maken met de antwoorden
-✔️ ask 8ball knop in html maken
-✔️ functie shakeEightBall aanmaken (zonder complexiteit van dubbel antwoord)
-x GET parameter kunnen inlezen
-x random answer tonen ENKEL INDIEN get parameter aanwezig is
-x de knop label wijzigen ENKEL INDIEN get parameter aanwezig is naar "ASK AGAIN"
