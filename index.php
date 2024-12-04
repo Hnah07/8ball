@@ -6,7 +6,7 @@ include('answers.php');
 //index is genoeg omdat we die in url parameter steken
 function shakeEightBall($answers)
 {
-    $randomAnswer = array_rand($answers);
+    $randomAnswer = array_rand($answers); //array_rand returns a key
     return $randomAnswer;
 }
 
